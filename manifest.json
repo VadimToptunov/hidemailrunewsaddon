@@ -1,5 +1,5 @@
 {
-  "manifest_version":2,
+  "manifest_version":3,
   "version":"1.0",
   "name":"Hide mail.ru news",
   "content_scripts":[
@@ -7,10 +7,5 @@
       "matches":["https://mail.ru/"],
       "js":["main.js"]
     }
-  ],
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "vtoptunov88@gmail.com"
-    }
-  }
+  ]
 }
