@@ -1,0 +1,11 @@
+{
+  "manifest_version":3,
+  "version":"1.0",
+  "name":"Hide mail.ru news",
+  "content_scripts":[
+    {
+      "matches":["https://mail.ru/"],
+      "js":["main_chrome.js"]
+    }
+  ]
+}
